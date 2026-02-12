@@ -43,7 +43,7 @@ display: none;
     padding-bottom: 30px;
     font-weight: bolder;
 }
-.part-1 span {
+.span-1 {
 color: rgba(255, 83, 0, 1);
 }
 .part-1 p {
@@ -59,12 +59,73 @@ color: rgba(255, 83, 0, 1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+.section-1 {
+    margin:10% 5%;
+}
+.sector-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.part-4  {
+width: 40%;
+}
+.part-4 p {
+    color: rgba(123, 123, 123, 1);
+    padding-bottom: 20px;
+}
+.part-4 h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sector-3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.part-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:270px ;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.art-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 83, 0, 1);
+    box-shadow: 0px 0px 15px rgba(255, 83, 0, 0.4);
+    
+}
+.part-5 p {
+    color: rgba(55, 55, 55, 1);
+    text-align: center;
+    margin-top: 20px;
+    width: 180px;
+} 
+.art-2 {
+    background-color: rgba(123, 123, 123, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 
-
-
-
-
-
+}
+.art-3 {
+    background-color: rgba(0, 172, 255, 1);
+    box-shadow:0px 0px 15px rgba(0, 194, 255, 0.4) ;
+}
+.art-4 {
+    background-color:rgba(55, 55, 55, 1) ;
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.4) ;
+}
 
 @media (max-width:510px) {
     nav {
@@ -98,6 +159,31 @@ color: rgba(255, 83, 0, 1);
     .part-2 img {
         width: 100%;
     }
-
+    .section-1 {
+      margin:10% 20px;  
+    }
+    .sector-2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.part-4 h2 {
+    font-size: 25px;
+}
+.part-3 img{
+    width: 100%;
+}
+.part-4  {
+width: 90%;
+}
+.sector-3 {
+    flex-direction: column;
+}
+.part-5 {
+    width: 95%;
+}
 
 }

@@ -269,6 +269,54 @@ nav {
     color: rgba(255, 255, 255, 0.823);
     letter-spacing: 0%;
 }
+.section-5 {
+      margin: 150px 5%;
+}
+.section-5 h6 {
+    color: rgba(123, 123, 123, 1);
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.section-5 h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.sector-6 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.part-8 {
+    padding: 20px;
+    width:530px ;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.pic-part {
+   display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.par-1 {
+    color: rgba(255, 83, 0, 1);
+}
+.text-part h4 {
+    font-size: 27px;
+    color: rgba(55, 55, 55, 1);
+    margin: 20px 0px;
+}
+.text-part h5 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+.text-part span {
+    color: rgba(123, 123, 123, 1);
+}
+
 
 @media (max-width:510px) {
     nav {
@@ -361,7 +409,7 @@ nav {
         width: 100%;
     }
 
-    .section-3 h2,.section-4 h2 {
+    .section-3 h2,.section-4 h2,.section-5 h2 {
         font-size: 25px;
 
     }
@@ -370,5 +418,9 @@ nav {
         width: 200px;
         height: 150px;
     }
+     .text-part h4{
+        font-size: 16px;
+     }
+
 
 }

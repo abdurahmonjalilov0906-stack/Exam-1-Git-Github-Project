@@ -29,8 +29,35 @@ display: none;
 .icon-1 {
     font-size: 40px;
 }
-
-
+.sector-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 5%;
+}
+.part-1 {
+    width: 35%;
+}
+.part-1 h1 {
+    font-size: 50px;
+    color:rgba(55, 55, 55, 1) ;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.part-1 span {
+color: rgba(255, 83, 0, 1);
+}
+.part-1 p {
+    color: rgba(123, 123, 123, 1);
+    padding-bottom: 30px;
+}
+.but-1 {
+    background-color: rgba(255, 83, 0, 1);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -52,4 +79,25 @@ display: none;
     .hide-in-desk {
         display: block;
     }
+    .sector-1 {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 150px 25px;
+    }
+    .part-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        padding: 0px 30px;
+    }
+    .part-1 h1 {
+        font-size: 33px;
+    }
+    .part-2 img {
+        width: 100%;
+    }
+
+
 }

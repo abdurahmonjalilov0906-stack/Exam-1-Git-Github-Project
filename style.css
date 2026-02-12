@@ -1,55 +1,67 @@
-*  {
+* {
     margin: 0;
 }
+
 header {
     background-color: rgba(255, 247, 244, 1);
 }
+
 nav {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 30px 20px;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 .par-part {
     display: flex;
     gap: 20px;
     font-size: 20px;
     color: rgba(55, 55, 55, 1);
 }
+
 .logo {
     display: flex;
     align-items: center;
     gap: 40px;
-} 
-.hide-in-desk {
-display: none;
 }
+
+.hide-in-desk {
+    display: none;
+}
+
 .icon-1 {
     font-size: 40px;
 }
+
 .sector-1 {
     display: flex;
     justify-content: space-evenly;
     padding: 150px 5%;
 }
+
 .part-1 {
     width: 35%;
 }
+
 .part-1 h1 {
     font-size: 50px;
-    color:rgba(55, 55, 55, 1) ;
+    color: rgba(55, 55, 55, 1);
     padding-bottom: 30px;
     font-weight: bolder;
 }
+
 .span-1 {
-color: rgba(255, 83, 0, 1);
+    color: rgba(255, 83, 0, 1);
 }
+
 .part-1 p {
     color: rgba(123, 123, 123, 1);
     padding-bottom: 30px;
 }
+
 .but-1 {
     background-color: rgba(255, 83, 0, 1);
     color: white;
@@ -61,42 +73,49 @@ color: rgba(255, 83, 0, 1);
 }
 
 .section-1 {
-    margin:10% 5%;
+    margin: 10% 5%;
 }
+
 .sector-2 {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 50px;
 }
-.part-4  {
-width: 40%;
+
+.part-4 {
+    width: 40%;
 }
+
 .part-4 h6 {
     color: rgba(123, 123, 123, 1);
     padding-bottom: 30px;
     font-size: 16px;
 }
+
 .part-4 h2 {
     font-size: 40px;
     padding-bottom: 20px;
 }
+
 .sector-3 {
     display: flex;
     justify-content: center;
     gap: 30px;
     align-items: center;
 }
+
 .part-5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:270px ;
+    width: 270px;
     height: 200px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 .art-1 {
     display: flex;
     flex-direction: column;
@@ -107,27 +126,32 @@ width: 40%;
     border-radius: 50%;
     background-color: rgba(255, 83, 0, 1);
     box-shadow: 0px 0px 15px rgba(255, 83, 0, 0.4);
-    
+
 }
+
 .part-5 p {
     color: rgba(55, 55, 55, 1);
     text-align: center;
     margin-top: 20px;
     width: 180px;
-} 
+}
+
 .art-2 {
     background-color: rgba(123, 123, 123, 1);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 
 }
+
 .art-3 {
     background-color: rgba(0, 172, 255, 1);
-    box-shadow:0px 0px 15px rgba(0, 194, 255, 0.4) ;
+    box-shadow: 0px 0px 15px rgba(0, 194, 255, 0.4);
 }
+
 .art-4 {
-    background-color:rgba(55, 55, 55, 1) ;
-    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.4) ;
+    background-color: rgba(55, 55, 55, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
+
 .section-2 {
     display: flex;
     justify-content: space-evenly;
@@ -135,12 +159,14 @@ width: 40%;
     background-color: rgba(255, 247, 244, 1);
 
 }
+
 .part-6 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     width: 600px;
 }
+
 .box {
     display: flex;
     flex-direction: column;
@@ -151,33 +177,77 @@ width: 40%;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 .box h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 10px;
 }
+
 .box p {
     font-size: 20px;
+    color: rgba(123, 123, 123, 1);
+}
+
+.section-3 {
+    margin: 10% 5%;
+}
+
+.section-3 p {
+    color: rgba(123, 123, 123, 1);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-3 h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.sector-4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.box-1 {
+    width: 270px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.box-1 h5 {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.box-1 h6 {
+    font-size: 16px;
     color: rgba(123, 123, 123, 1);
 }
 @media (max-width:510px) {
     nav {
         justify-content: space-between;
     }
+
     .par-part {
         display: none;
     }
+
     .hide-in-phone {
         display: none;
     }
+
     .hide-in-desk {
         display: block;
     }
+
     .sector-1 {
         flex-direction: column-reverse;
         gap: 20px;
         padding: 150px 25px;
     }
+
     .part-1 {
         display: flex;
         flex-direction: column;
@@ -186,52 +256,67 @@ width: 40%;
         width: 90%;
         padding: 0px 30px;
     }
+
     .part-1 h1 {
         font-size: 33px;
     }
+
     .part-2 img {
         width: 100%;
     }
+
     .section-1 {
-      margin:10% 20px;  
+        margin: 10% 20px;
     }
+
     .sector-2 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-.part-4 h2 {
-    font-size: 25px;
-}
-.part-3 img{
-    width: 100%;
-}
-.part-4  {
-width: 90%;
-}
-.sector-3 {
-    flex-direction: column;
-}
-.part-5 {
-    width: 95%;
-}
-.section-2 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    text-align: center;
-}
-.part-6 {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100%;
-}
-.box {
-    width: 100%;
-}
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .part-4 h2 {
+        font-size: 25px;
+    }
+
+    .part-3 img {
+        width: 100%;
+    }
+
+    .part-4 {
+        width: 90%;
+    }
+
+    .sector-3 {
+        flex-direction: column;
+    }
+
+    .part-5 {
+        width: 95%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .part-6 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+    .section-3 h2 {
+        font-size: 25px;
+    }
 
 }

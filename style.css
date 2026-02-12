@@ -332,7 +332,7 @@ nav {
 }
 
 .section-6 {
-    margin: 150px 5%;
+    margin: 150px 5% 50px;
 }
 
 .section-6 h6 {
@@ -449,7 +449,16 @@ span {
     color: white;
     margin: 30px 0px;
 }
-
+.img-3 {
+   display: flex;
+   align-items: center;
+   margin:0pc auto 100px;
+}
+.imgs-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10% 50px;
+}
 @media (max-width:510px) {
     nav {
         justify-content: space-between;
@@ -573,6 +582,13 @@ span {
     .but-2 {
         width: 95%;
     }
-
-
+    .img-3 {
+        width: 90%;
+        height: 250px;
+    }
+    .imgs-part img {
+        gap: 30px;
+        width: 20%;
+        padding: 0px 5px 50px;
+    }
 }

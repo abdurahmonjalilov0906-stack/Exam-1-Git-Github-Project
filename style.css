@@ -56,7 +56,8 @@ color: rgba(255, 83, 0, 1);
     padding: 15px 30px;
     border: none;
     font-size: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 83, 0, 0.4);
+    margin-top: 20px;
 }
 
 .section-1 {
@@ -71,9 +72,10 @@ color: rgba(255, 83, 0, 1);
 .part-4  {
 width: 40%;
 }
-.part-4 p {
+.part-4 h6 {
     color: rgba(123, 123, 123, 1);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
 }
 .part-4 h2 {
     font-size: 40px;
@@ -126,7 +128,38 @@ width: 40%;
     background-color:rgba(55, 55, 55, 1) ;
     box-shadow:0px 0px 15px rgba(0, 0, 0, 0.4) ;
 }
+.section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 5%;
+    background-color: rgba(255, 247, 244, 1);
 
+}
+.part-6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 600px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.box h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: 20px;
+    color: rgba(123, 123, 123, 1);
+}
 @media (max-width:510px) {
     nav {
         justify-content: space-between;
@@ -184,6 +217,21 @@ width: 90%;
 }
 .part-5 {
     width: 95%;
+}
+.section-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.part-6 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.box {
+    width: 100%;
 }
 
 }
